@@ -18,7 +18,7 @@ const AdminSidebar = () => {
   const { logout } = useAuth();
 
   return (
-    <aside className="hidden w-72 shrink-0 flex-col rounded-[32px] border border-white/10 bg-slate-950/80 p-5 shadow-panel backdrop-blur-xl lg:flex">
+    <aside className="hidden h-screen w-72 shrink-0 flex-col rounded-[32px] border border-white/10 bg-slate-950/80 p-5 shadow-panel backdrop-blur-xl lg:flex">
       <div className="mb-10">
         <p className="text-xs uppercase tracking-[0.35em] text-neon-blue">GhostMode Admin</p>
         <h2 className="mt-4 text-2xl font-semibold text-slate-100">Command Console</h2>

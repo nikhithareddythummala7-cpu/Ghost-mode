@@ -43,7 +43,7 @@ const FlaggedMessages = () => {
       </div>
 
       {loading ? <LoadingSpinner /> : (
-        <div className="overflow-x-auto rounded-3xl border border-slate-200 bg-slate-50 p-4 shadow-sm dark:border-slate-700 dark:bg-slate-900">
+        <div className="overflow-x-auto overflow-y-auto max-h-[56vh] rounded-3xl border border-slate-200 bg-slate-50 p-4 shadow-sm dark:border-slate-700 dark:bg-slate-900">
           <table className="min-w-full text-left text-sm text-slate-700 dark:text-slate-200">
             <thead>
               <tr>
